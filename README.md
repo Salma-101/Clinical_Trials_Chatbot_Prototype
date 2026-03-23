@@ -83,7 +83,12 @@ A simple rule-based function identifies the condition (e.g., “lung cancer”).
 
 #### b) Filtering Logic
 
-If the query includes keywords like “recruiting”, the backend filters trials accordingly.
+Filtering is currently triggered through explicit user actions in the interface rather than fully relying on natural language understanding.
+
+For example, selecting the “Show Recruiting Trials” button sends a modified query to the backend, which then applies the corresponding filter to return only recruiting trials.
+
+This approach was chosen to keep the prototype simple and focused on demonstrating the interaction between user input, backend processing, and map updates. 
+It also provides a clear separation between query handling and filtering logic.
 
 ---
 
@@ -152,7 +157,8 @@ Example:
 You: lung cancer
 Bot: Found 2 trials for lung cancer
 
-You: lung cancer recruiting
+(User selects "Show Recruiting Trials")
+
 Bot: Showing 1 recruiting trial for lung cancer
 ```
 
