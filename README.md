@@ -4,7 +4,7 @@
 
 The project is a prototype of a patient facing system that aims to assist the users in finding relevant clinical trials by means of a combination of conversational input and interactive map interface.
 
-The concept underlying this project is that patients usually have difficulties in locating appropriate clinical trials since they are not equipped with structured tools. 
+Patients usually have difficulties in locating appropriate clinical trials since they are not equipped with structured tools. 
 This prototype demonstrates how natural language input can be processed and linked with geospatial visualization to make this process easier and more intuitive.
 
 This project is a part of my GSoC preparation where I was able to explore and build a chatbot system that would be used in clinical trials as I built a more solid foundation in areas I want to work in.
